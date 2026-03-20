@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: pip install resend
+        run: pip install --quiet resend
 
       - name: Send quote
         env:
